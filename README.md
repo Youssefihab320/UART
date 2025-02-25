@@ -16,7 +16,8 @@ UART Transmitter (Tx):
 - 8-bit Counter Generates Data – The counter increments automatically, eliminating manual data entry.  
 - MUX Selects Data for Transmission – The counter output is routed through a MUX to transmit one bit at a time.  
 - Data is Sent Bit-by-Bit Serially – No shift register is used; instead, the MUX selects which bit to transmit at each clock cycle.  
-- Mod-10 Counter for Baud Rate Control – Ensures correct timing for data transmission.  
+- Mod-10 Counter for Baud Rate Control – Ensures correct timing for data transmission.
+   
 UART Receiver (Rx):  
 - Serial Data Reception – Captures incoming bits.  
 - Start & Stop Bit Detection – Ensures proper synchronization.  
